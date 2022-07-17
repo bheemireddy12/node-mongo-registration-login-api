@@ -1,0 +1,28 @@
+{
+    "name": "node-mongo-registration-login-api",
+    "version": "1.0.0",
+    "description": "TypeScript | Node.js | Mongo | User Onboarding - Implement login and registration of users with phone number as unique.  Implement endpoints to fetch the list of users (with a phase matching and results limiting), fetch details of a single user and to delete the given user.",
+    "license": "User Onboarding API",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bheemireddy12/node-mongo-registration-login-api.git"
+    },
+    "scripts": {
+        "start": "node ./server.js",
+        "start:dev": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-jwt": "^6.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^3.5.9",
+        "mongoose": "^5.9.21",
+        "rootpath": "^0.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
